@@ -8329,6 +8329,12 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
+@media (max-width: 991px) {
+  .fixed-top {
+    position: relative !important;
+  }
+}
+
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -8343,6 +8349,34 @@ button.bg-dark:focus {
     position: sticky;
     top: 0;
     z-index: 1020;
+  }
+}
+
+@media (max-width: 991px) {
+  .hide-on-mobile {
+    position: relative !important;
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .reverse-row-sm {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+}
+
+.padding-top-bottom-sm {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+@media (max-width: 991px) {
+  .padding-top-bottom-sm {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
   }
 }
 

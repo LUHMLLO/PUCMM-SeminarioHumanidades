@@ -7313,6 +7313,10 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+
+  @media(max-width:991px){
+    position: relative !important;
+  }
 }
 
 .fixed-bottom {
@@ -7331,6 +7335,32 @@ button.bg-dark:focus {
     z-index: 1020;
   }
 }
+
+
+
+.hide-on-mobile{
+  @media(max-width:991px){
+    position: relative !important;
+    display: none !important;
+  }
+}
+
+.reverse-row-sm{
+  @media(max-width:991px){
+    flex-direction: column-reverse !important;
+  }
+}
+
+.padding-top-bottom-sm{
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  @media(max-width:991px){
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+
 
 .sr-only {
   position: absolute;
