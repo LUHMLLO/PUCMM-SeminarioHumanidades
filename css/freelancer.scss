@@ -7348,11 +7348,11 @@ button.bg-dark:focus {
 }
 
 .padding-top-bottom-sm{
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-top: 60px;
+  padding-bottom: 60px;
   @media(max-width:991px){
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
