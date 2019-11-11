@@ -4027,10 +4027,6 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-
-  @media(max-width:991px){
-    display: block !important;
-  }
 }
 
 .navbar-toggler {
@@ -7317,10 +7313,6 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
-
-  @media(max-width:991px){
-    position: relative !important;
-  }
 }
 
 .fixed-bottom {
