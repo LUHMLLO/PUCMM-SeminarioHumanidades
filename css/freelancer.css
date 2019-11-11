@@ -4513,6 +4513,12 @@ input[type="button"].btn-block {
           align-items: center;
 }
 
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: block !important;
+  }
+}
+
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
